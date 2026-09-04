@@ -1,0 +1,14 @@
+Category,Item,Qty for 2 modules,Price AUD snapshot,Supplier,URL,Verification
+Per module,ESP32-C3 Mini with fitted headers,2,7.60 each,Core Electronics,https://core-electronics.com.au/esp32-c3-mini-dev-board-risc-v-processor-wi-fi-bt5-smd-compatible.html,Confirm headers fitted
+Per module,28BYJ-48 plus ULN2003 board,2,6.96 delivered example each,eBay AU,https://www.ebay.com.au/b/Unbranded-Industrial-Stepper-Motors/9723/bn_18937908,Confirm voltage plug and fitted pins
+Per module,MAX3485 3.3V RS-485 module,2,5.00 each,KiwiGuy,https://kiwiguycomputers.com.au/product/max3485-ttl-to-rs485-module/,Confirm fitted headers
+Shared,CR80 PVC cards 30 mil pack 100,1,26.73 inc GST,Peacock Bros,https://shop.peacocks.com.au/category/label-printers-and-supplies/id-card-printer-supplies/id-cards,Cut each card in half
+Shared,KY-003 Hall boards pack 5,1,4.78 delivered example,eBay AU,https://www.ebay.com.au/shop/sensor-hall-effect?_nkw=sensor+hall+effect,Confirm unipolar non-latching and fitted headers
+Shared,Female-female 10cm leads pack 40,1,3.20,Core Electronics,https://core-electronics.com.au/prototyping/prototyping-wire/female-female.html,Bench logic only
+Shared,Neodymium magnets 3x2mm MOQ 20,1,8.60,AMF Magnetics,https://magnet.com.au/products/neodymium-disc-3mm-x-2mm,Keep away from children
+Controller,Raspberry Pi Zero W,1,25.90,Core Electronics,https://core-electronics.com.au/raspberry-pi/boards/zero.html,Cheapest in-stock Pi checked
+Controller,USB to RS-485 adapter with screw terminals,1,39.95,Core Electronics,https://core-electronics.com.au/usb-to-multi-protocol-serial-adapter-rs232-ttl-uart-rs485-adafruit.html,Verified no-solder local option
+Controller,microSD card 16GB or larger,1,Allow 10 to 15,Any reputable retailer,,Needed to boot Raspberry Pi OS
+Shared,12V regulated fused power supply and connector,1,Quote after motor tests,Reputable electronics supplier,,Size after measuring motor current
+Mechanical,PLA or PETG printed parts,2 sets,Use owned filament,Your 3D printer,,Print fit coupons first
+Mechanical,M3 axle screws washers and nuts,2 sets,Use owned hardware,Local hardware shop,,Exact lengths follow tested CAD
