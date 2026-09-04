@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Modular Splitflap',
     description: 'Build two. Prove the bus. A no-solder open-hardware roadmap.',
-    images: ['https://raw.githubusercontent.com/Mr0ks/modular-splitflap/main/public/og.png'],
+    images: ['https://modular-splitflap.olegmalyshev.chatgpt.site/og.png'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Modular Splitflap',
     description: 'Build two. Prove the bus. A no-solder open-hardware roadmap.',
-    images: ['https://raw.githubusercontent.com/Mr0ks/modular-splitflap/main/public/og.png'],
+    images: ['https://modular-splitflap.olegmalyshev.chatgpt.site/og.png'],
   },
 };
 
