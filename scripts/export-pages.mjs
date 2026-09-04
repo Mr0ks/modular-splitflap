@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 
 const response = await fetch('http://localhost:8787/');
 if (!response.ok) throw new Error(`Local render failed: ${response.status}`);
@@ -12,8 +12,11 @@ html = html.replace('</body>', `${enhancement}</body>`);
 await mkdir('docs', { recursive: true });
 await writeFile('docs/index.html', html);
 await writeFile('docs/.nojekyll', '');
-const cssPath = 'docs/_next/static/css/index.BP6M6q0C.css';
 try {
-  const css = await readFile(cssPath, 'utf8');
-  await writeFile(cssPath, css.replaceAll('url(/', 'url(/modular-splitflap/'));
+  const cssFiles = await readdir('docs/_next/static/css');
+  for (const name of cssFiles.filter((name) => name.endsWith('.css'))) {
+    const cssPath = `docs/_next/static/css/${name}`;
+    const css = await readFile(cssPath, 'utf8');
+    await writeFile(cssPath, css.replaceAll('url(/', 'url(/modular-splitflap/'));
+  }
 } catch {}
